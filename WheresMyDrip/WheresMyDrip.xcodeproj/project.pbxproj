@@ -18,6 +18,9 @@
 		55FF4FA22AD22607007EA504 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 55FF4FA12AD22607007EA504 /* FirebaseAnalytics */; };
 		55FF4FA42AD22607007EA504 /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 55FF4FA32AD22607007EA504 /* FirebaseAnalyticsSwift */; };
 		55FF4FAC2AD22ECB007EA504 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 55FF4FAB2AD22ECB007EA504 /* FirebaseAuth */; };
+		55FF4FB02AD2340D007EA504 /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF4FAE2AD2340D007EA504 /* AuthenticationView.swift */; };
+		55FF4FB72AD23687007EA504 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF4FB62AD23687007EA504 /* AuthenticationManager.swift */; };
+		55FF4FB92AD23BAC007EA504 /* SignInEmailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55FF4FB82AD23BAC007EA504 /* SignInEmailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		55FF4F8F2AD22373007EA504 /* WheresMyDripUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheresMyDripUITests.swift; sourceTree = "<group>"; };
 		55FF4F912AD22373007EA504 /* WheresMyDripUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WheresMyDripUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		55FF4F9E2AD224C5007EA504 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		55FF4FAE2AD2340D007EA504 /* AuthenticationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		55FF4FB62AD23687007EA504 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		55FF4FB82AD23BAC007EA504 /* SignInEmailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInEmailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +109,7 @@
 		55FF4F732AD22370007EA504 /* WheresMyDrip */ = {
 			isa = PBXGroup;
 			children = (
+				55FF4FAD2AD2340D007EA504 /* Authentication */,
 				55FF4F742AD22370007EA504 /* WheresMyDripApp.swift */,
 				55FF4F762AD22370007EA504 /* ContentView.swift */,
 				55FF4F9E2AD224C5007EA504 /* GoogleService-Info.plist */,
@@ -142,6 +149,16 @@
 			children = (
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		55FF4FAD2AD2340D007EA504 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				55FF4FAE2AD2340D007EA504 /* AuthenticationView.swift */,
+				55FF4FB82AD23BAC007EA504 /* SignInEmailView.swift */,
+				55FF4FB62AD23687007EA504 /* AuthenticationManager.swift */,
+			);
+			path = Authentication;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,6 +302,9 @@
 			files = (
 				55FF4F772AD22370007EA504 /* ContentView.swift in Sources */,
 				55FF4F752AD22370007EA504 /* WheresMyDripApp.swift in Sources */,
+				55FF4FB72AD23687007EA504 /* AuthenticationManager.swift in Sources */,
+				55FF4FB02AD2340D007EA504 /* AuthenticationView.swift in Sources */,
+				55FF4FB92AD23BAC007EA504 /* SignInEmailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
